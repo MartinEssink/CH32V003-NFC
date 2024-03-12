@@ -2,7 +2,7 @@
 Emulating a NFC tag directly on the CH32V003, inspired by [SimpleNFC](https://www.nonan.net/nkruse/simplenfc) using 
 [ch32v003fun](https://github.com/cnlohr/ch32v003fun). This repository allows this 10-cent microcontroller to act as a ncf tag, requiring only a few passive components. The implementation here emulates a ISO/IEC 14443-3A, NFC Forum Type 2 Tag containg Ndef data. Though, any other tag supporting the 14443-3A standard should work as well. Currently supported commands reading and writing to the tag storate (including the UID), as well as the commands required for establishing communication.
 
-![Image](img/screenshot.png)
+![Image](img/screenshot.jpg)
 
 The code in this repository relies on the built-in OPA in the CH32V003, including the corresponding pins D0, D4 and D7. Further TIM2 is needed for transmission through load modulation. Finally, a 13.56MHz oscillator provides the clock signal that matches the NFC signal. 
 
