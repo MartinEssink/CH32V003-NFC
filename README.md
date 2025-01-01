@@ -1,6 +1,6 @@
 # CH32V003 NFC
 Emulating a NFC tag directly on the CH32V003, inspired by [SimpleNFC](https://www.nonan.net/nkruse/simplenfc) using 
-[ch32v003fun](https://github.com/cnlohr/ch32v003fun). This repository allows this 10-cent microcontroller to act as a ncf tag, requiring only a few passive components. The implementation here emulates a ISO/IEC 14443-3A, NFC Forum Type 2 Tag containg Ndef data. Though, any other tag supporting the 14443-3A standard should work as well. Currently supported commands reading and writing to the tag storate (including the UID), as well as the commands required for establishing communication.
+[ch32v003fun](https://github.com/cnlohr/ch32v003fun). This repository allows this 10-cent microcontroller to act as a ncf tag, requiring only a few passive components. The implementation here emulates a ISO/IEC 14443-3A, NFC Forum Type 2 Tag containg Ndef data. Though, any other tag supporting the 14443-3A standard should work as well. Currently supported commands reading and writing to the tag storage (including the UID), as well as the commands required for establishing communication.
 
 ![Image](img/screenshot.jpg)
 
